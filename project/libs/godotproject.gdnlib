@@ -1,0 +1,18 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godotproject_"
+reloadable=false
+
+[entry]
+
+X11.64="res://libs/x11/libGodotProjectLib.so"
+Windows.64="res://libs/win64/GodotProjectLib.dll"
+OSX.64="res://libs/osx/GodotProject.dylib"
+
+[dependencies]
+
+X11.64=[  ]
+Windows.64=[  ]
+OSX.64=[  ]

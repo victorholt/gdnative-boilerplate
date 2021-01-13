@@ -1,0 +1,16 @@
+version: "3.6"
+
+services:
+  godot_project:
+    container_name: 'godot-project'
+    image: 'ubuntu:20.04'
+    command: tail -F anything
+    working_dir: /var/app
+    volumes:
+      - ./../godot-cpp:/var/app/godot-cpp
+      - ./../src:/var/app/src
+      - ./../bin:/var/app/bin
+      - ./../builds:/var/app/builds
+      - ./../CMakeLists.txt:/var/app/CMakeLists.txt
+      - ./build.sh:/var/app/build.sh
+      - ./sconsb.sh:/var/app/sconsb.sh

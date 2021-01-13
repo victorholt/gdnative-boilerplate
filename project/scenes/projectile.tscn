@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/tileset/DungeonTileset.png" type="Texture" id=1]
+
+[node name="projectile" type="Sprite"]
+rotation = 1.5708
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 50.6118, 213.804, 9.5099, 10.9235 )

@@ -1,0 +1,3 @@
+[submodule "gdnative/godot-cpp"]
+	path = gdnative/godot-cpp
+	url = https://github.com/godotengine/godot-cpp
